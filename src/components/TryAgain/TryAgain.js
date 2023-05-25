@@ -14,7 +14,6 @@ export const TryAgain = ({
             <div className="result-container">
                 {/* Test Results */}
                 <p className='tryagain-text'><span className='span-text'>Characters: </span>{characters}</p>
-                <p className='tryagain-text'><span className='span-text'>Mistakes: </span>{mistakes}</p>
                 <p className='tryagain-text'><span className='span-text'>Speed: </span>{words}WPM</p>
                 <p className='tryagain-text'><span className='span-text'>Accuracy: </span>{accuracy}</p>
             </div>
